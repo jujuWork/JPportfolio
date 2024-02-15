@@ -1,0 +1,59 @@
+/* Navigation */
+
+@media screen and (min-width: 601px) {
+    
+    nav a {
+        display: inline;
+    }
+
+    nav i {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    body {
+        border: 1px solid red;
+        width: 95%;
+        padding: 5px;
+        margin: 0 auto;
+    }
+
+    .nav-list {
+        padding: 0;
+        margin: 2px 0 0 0;
+    }
+
+    .nav-item {
+        margin: 0;
+        padding: 0 8px;
+    }
+
+    .nav-item:first-child {
+        margin-left: 0;
+    }
+
+    nav span {
+        display: none;
+    }
+
+    nav i {
+        display: flex;
+        font-size: 1.3rem;
+        color: #BBE1FA;
+    }
+
+    #myBtn {
+        display: none;
+    }
+}
+
+/* HEADER */
+
+@media screen and (max-width: 600px) {
+    
+    header {
+        font-size: 0.5rem;
+    }
+}

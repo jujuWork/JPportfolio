@@ -1,5 +1,3 @@
-JS
-
 // contact email checker //
 
 function checkURL (email) {
